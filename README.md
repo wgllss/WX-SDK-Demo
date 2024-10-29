@@ -25,9 +25,6 @@
 > 6、**`尽最大努力自己实现动态化可更新`**
 
 
-#####  [示例工程github](https://github.com/wgllss/WX-SDK-Demo)  
-#####  [示例工程gitee](https://gitee.com/wgllss888/WX-SDK-Demo)
-
 ## 二、Jar包式SDK
 1. jar包式开发是最简单的，它的工程是建的model lib工程，**`build.gradle`** 下
 ```
