@@ -7,6 +7,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
+import com.wx.demo.SampleApplication
 import com.wx.demo.databinding.FragmentHomeBinding
 import com.wx.iml.XLogLoaderImpl
 import com.wx.sdk5.impl.SDK5Impl
@@ -33,7 +34,7 @@ class HomeFragment : Fragment() {
         }
 
         textView.setOnClickListener {
-            XLogLoaderImpl.instance.getWXLog().e("HomeFragment", "AAAAAAAAAAAA")
+            SampleApplication.xLogLoader.getWXLog().e("HomeFragment", "AAAAAAAAAAAA")
         }
 
         binding.textSdk5.setOnClickListener {
