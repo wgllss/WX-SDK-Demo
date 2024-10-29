@@ -1,6 +1,6 @@
 package com.wx.iml
 
-class WXLog : com.wx.iml.IWXLog {
+class WXLog : IWXLog {
     override fun e(tag: String, message: String) {
         android.util.Log.e(tag, message)
     }
